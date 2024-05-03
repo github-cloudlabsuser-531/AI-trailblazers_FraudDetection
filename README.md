@@ -5,17 +5,14 @@ USE CASE 1:
 A1)Steps to execute code in Visual Studio:
    
 	1) Unzip the folder and open the workspace in Visual Studio.
-	2) Go to Tools -> Command Line -> Developer PowerShell
-	3) PromptShell will open with path -> ..\AI-trailblazers_FraudDetection\DebtTrap
-	4) Type the below command in PowerShell
-	   4.1) cd DebtTrap
-	   4.2) dotnet add package Azure.AI.OpenAI --version 1.0.0-beta.14
-	   4.3) dotnet run
-	   4.4) Enter the Question
+	2) Expand "DebtTrap" folder.
+	3) Double Click on "DebtTrap.sln" solution file.
+	4) Click on "Run" button present on the top.
+	   4.1) Enter the Question
 	     Request - You are a loan approver agent and provide only definitive answers and considers factors, data which is given to you. Compare User A aggregate monthly income vs yearly income, analyze whether User A is eligible for loan of Rs 1500000 and provide the status as Loan Application: ?APPROVED or REJECTED
 		 Response - "you will get response"
-	   4.5) dotnet run
-	   4.6) Enter the Question
+	   4.2) Close the Window and Re-Run the Code for second question (which is below)
+	   4.2) Enter the Question
 		 Request - You are a loan approver agent and provide only definitive answers and considers factors, data which is given to you. Compare User B aggregate monthly income vs yearly income, analyze whether User B is eligible for loan of Rs 500000 and provide the status as Loan Application: ?APPROVED or REJECTED
 		 Response - "you will get response"
 
@@ -40,17 +37,14 @@ USE CASE 2:
 A2)Steps to execute code in Visual Studio:
    
 	1) Unzip the folder and open the workspace in Visual Studio.
-	2) Go to Tools -> Command Line -> Developer PowerShell
-	3) PromptShell will open with path -> ..\AI-trailblazers_FraudDetection\IdentityMispresentation
-	4) Type the below command in PowerShell
-	   4.1) cd IdentityMispresentation
-	   4.2) dotnet add package Azure.AI.OpenAI --version 1.0.0-beta.14
-	   4.3) dotnet run
-	   4.4) Enter the Question
+	2) Expand "IdentityMispresentation" folder.
+	3) Double Click on "IdentityMispresentation.sln" solution file.
+	4) Click on "Run" button present on the top.
+	   4.1) Enter the Question
 	     Request - You are loan approver agent and provide only definitive answers and considers factors, data which is given to you only. Compare for SAM identity data (PAN) in bank and income statement and provide    status as KYC :  ?FAILED or PASSED
 		 Response - "you will get response"
-	   4.5) dotnet run
-	   4.6) Enter the Question
+	   4.2) Close the Window and Re-Run the Code for second question (which is below)
+	   4.3) Enter the Question
 		 Request - You are loan approver agent and provide only definitive answers and considers factors, data which is given to you only. Compare for BEN identity data (PAN) in bank and income statement and provide    status as KYC :  ?FAILED or PASSED
 		 Response - "you will get response"
 
