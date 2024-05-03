@@ -77,7 +77,7 @@
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Name = "Form2";
-            Text = "Application Fraud";
+            Text = "Debt trap fraud";
             ResumeLayout(false);
             PerformLayout();
         }

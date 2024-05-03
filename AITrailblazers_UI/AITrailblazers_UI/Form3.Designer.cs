@@ -74,7 +74,7 @@
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Name = "Form3";
-            Text = "KYC Fraud";
+            Text = "Identity fraud";
             ResumeLayout(false);
             PerformLayout();
         }
