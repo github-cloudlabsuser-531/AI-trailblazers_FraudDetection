@@ -31,6 +31,7 @@
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
             form2Text = new TextBox();
+            Form2CloseButton = new Button();
             SuspendLayout();
             // 
             // checkBox1
@@ -67,17 +68,29 @@
             form2Text.Text = "Console Output : User has other loans and unable to service new loan. PAN mismatch on Bank and Income statement.";
             form2Text.TextChanged += form2Text_TextChanged;
             // 
+            // Form2CloseButton
+            // 
+            Form2CloseButton.BackColor = SystemColors.Highlight;
+            Form2CloseButton.Location = new Point(618, 361);
+            Form2CloseButton.Name = "Form2CloseButton";
+            Form2CloseButton.Size = new Size(139, 45);
+            Form2CloseButton.TabIndex = 3;
+            Form2CloseButton.Text = "Close";
+            Form2CloseButton.UseVisualStyleBackColor = false;
+            Form2CloseButton.Click += button1_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(Form2CloseButton);
             Controls.Add(form2Text);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Name = "Form2";
-            Text = "Debt trap fraud";
+            Text = "Debt Trap Fraud";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -87,5 +100,6 @@
         private CheckBox checkBox1;
         private CheckBox checkBox2;
         private TextBox form2Text;
+        private Button Form2CloseButton;
     }
 }

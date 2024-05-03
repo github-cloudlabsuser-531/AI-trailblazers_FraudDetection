@@ -40,6 +40,7 @@
             upload2 = new Button();
             openFileDialog1 = new OpenFileDialog();
             openFileDialog2 = new OpenFileDialog();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -104,7 +105,7 @@
             // debtTrap
             // 
             debtTrap.BackColor = SystemColors.Info;
-            debtTrap.Location = new Point(12, 281);
+            debtTrap.Location = new Point(12, 296);
             debtTrap.Name = "debtTrap";
             debtTrap.Size = new Size(351, 58);
             debtTrap.TabIndex = 8;
@@ -115,7 +116,7 @@
             // identity
             // 
             identity.BackColor = SystemColors.Info;
-            identity.Location = new Point(405, 281);
+            identity.Location = new Point(405, 296);
             identity.Name = "identity";
             identity.Size = new Size(358, 58);
             identity.TabIndex = 9;
@@ -153,12 +154,24 @@
             // 
             openFileDialog2.FileName = "openFileDialog2";
             // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.Highlight;
+            button1.Location = new Point(620, 380);
+            button1.Name = "button1";
+            button1.Size = new Size(143, 44);
+            button1.TabIndex = 12;
+            button1.Text = "Close";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(upload2);
             Controls.Add(upload1);
             Controls.Add(identity);
@@ -171,6 +184,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Loan Application";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -189,5 +203,6 @@
         private Button upload2;
         private OpenFileDialog openFileDialog1;
         private OpenFileDialog openFileDialog2;
+        private Button button1;
     }
 }

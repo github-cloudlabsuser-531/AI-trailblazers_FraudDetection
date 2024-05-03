@@ -31,6 +31,7 @@
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
             KYCText = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // checkBox1
@@ -64,17 +65,29 @@
             KYCText.TabIndex = 2;
             KYCText.Text = "Console Output : PAN mismatch on Bank and Income statement. ";
             // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.Highlight;
+            button1.Location = new Point(614, 358);
+            button1.Name = "button1";
+            button1.Size = new Size(137, 44);
+            button1.TabIndex = 3;
+            button1.Text = "Close";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(KYCText);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Name = "Form3";
-            Text = "Identity fraud";
+            Text = "Identity Fraud";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -84,5 +97,6 @@
         private CheckBox checkBox1;
         private CheckBox checkBox2;
         private TextBox KYCText;
+        private Button button1;
     }
 }
