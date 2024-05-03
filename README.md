@@ -2,9 +2,9 @@
 Leverage Azure OPEN AI service to prevent fraud detection system in banking sector.
 
 USE CASE 1:
-A1)Steps to execute code in Visual Studio Code:
+A1)Steps to execute code in Visual Studio:
    
-	1) Unzip the folder and open the workspace in Visual Studio Code.
+	1) Unzip the folder and open the workspace in Visual Studio.
 	2) Go to Tools -> Command Line -> Developer PowerShell
 	3) PromptShell will open with path -> ..\AI-trailblazers_FraudDetection\DebtTrap
 	4) Type the below command in PowerShell
@@ -37,9 +37,9 @@ B1)Steps to execute code in Azure Portal -> Cloud Shell:
 				Response - "you will get response" 
 
 USE CASE 2:
-A2)Steps to execute code in Visual Studio Code:
+A2)Steps to execute code in Visual Studio:
    
-	1) Unzip the folder and open the workspace in Visual Studio Code.
+	1) Unzip the folder and open the workspace in Visual Studio.
 	2) Go to Tools -> Command Line -> Developer PowerShell
 	3) PromptShell will open with path -> ..\AI-trailblazers_FraudDetection\IdentityMispresentation
 	4) Type the below command in PowerShell
